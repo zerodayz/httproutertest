@@ -13,7 +13,7 @@ const (
 )
 
 func getPipelineFile(PipelineFile string) string {
-	return "/tmp" + PipelineFile
+	return "/tmp/" + PipelineFile
 }
 
 func CloseFile(file *os.File) {
